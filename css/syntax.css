@@ -2,15 +2,15 @@
  * http://www.quirkey.com/blog/2009/05/01/github-pages-for-fun-and-win/
  */
 
-.highlight {
+.highlight, .python {
     font-size: 13px;
     border-top: 1px solid #CCC;
     border-bottom: 1px solid #CCC;
 }
-.highlight br {
+.highlight br, .python br {
     height: 0px;
 }
-.highlight pre {
+.highlight pre, .python pre {
     background: #FEFEFE;
     color: #333;
     line-height: 100%;
