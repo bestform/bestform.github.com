@@ -175,6 +175,7 @@ ul.posts {
     margin-left: 1.35em;
   }
 
+/*
   .post code {
     border: 1px solid #ddd;
     background-color: #eef;
@@ -185,7 +186,7 @@ ul.posts {
     .post pre code {
       border: none;
     }
-
+*/
   /* terminal */
 
   .post pre.terminal {
