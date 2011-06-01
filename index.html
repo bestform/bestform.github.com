@@ -7,8 +7,6 @@ title: bestform labs
 <div class="post">
     <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
     <p class="meta">posted on {{ post.date | date_to_long_string }}.</p>
-    <p>
     {{ post.content }}
-    </p>
 </div>
 {% endfor %}
