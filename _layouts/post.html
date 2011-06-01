@@ -9,8 +9,17 @@
  </head>
  <body>
     <div class="site">
-        <div class="title">{{ page.title }}</div>
-        {{ content }}
+        <div class="title"><a href="/">bestform labs</a></div>
+        <div class="post">
+        
+        <h1><a href="{{ post.url }}">{{ page.title }}</a></h1>
+        <p class="meta">posted on {{ page.date | date_to_long_string }}.</p>
+        <p>
+            {{ content }}
+        </p>
+
+        </div>
     </div>
  </body>
  </html>
+
