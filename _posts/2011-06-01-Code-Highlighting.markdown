@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Code Highlighting
+published: false
 ---
 
 Anscheinend soll mit jekyll Code Highlighting gut gehen:
