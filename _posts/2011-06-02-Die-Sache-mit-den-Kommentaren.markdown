@@ -12,3 +12,6 @@ Generell bin ich ein Freund von Kommentaren, daher habe ich mir auch Gedanken da
 Ich werde hier in einem separaten Branch etwas damit experimentieren.
 
 Sagt dich einfach, was ihr von Kommentaren halten würdet..... oh warte. ;)
+
+
+**Update**: Ich habe mal die disqus Comments unten reingeklatscht. Jeh nach Nutzung und Laune bleiben sie drin oder fliegen wieder raus. Mal sehen.
