@@ -7,7 +7,7 @@ Der Umzug geht voran. Heute ist die [tonstube](http://tonstube.de) vom eigenen S
 
 Hosting
 -------
-Das Hosting der Seite wird jetzt von [github.com](http://github.com) übernommen. Sie liegt sie hier als project page für ein privates Projekt in einem gh-pages branch.
+Das Hosting der Seite wird jetzt von [github.com](http://github.com) übernommen. Sie liegt hier als project page für ein privates Projekt in einem gh-pages branch.
 
 Technik
 -------
