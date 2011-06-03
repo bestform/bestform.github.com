@@ -1,0 +1,29 @@
+---
+layout: post
+title: Der Umzug
+---
+
+Der Umzug geht voran. Heute ist die [tonstube](http://tonstube.de) vom eigenen Server auf github umgezogen (your DNS mileage may vary). Hier ein kleiner Bericht zu den Hintergründen und der Technik:
+
+Hosting
+-------
+Das Hosting der Seite wird jetzt von [github.com](http://github.com) übernommen. Sie liegt sie hier als project page für ein privates Projekt in einem gh-pages branch.
+
+Technik
+-------
+Da die Seite früher als eine Django-App lebte und man auf github nur statische Seiten hosten kann, musste die ursprüngliche App für den Standalone Betrieb umgebaut werden. Das war wesentlich weniger aufwändig, als anfänglich vermutet. Das mag vor allem an der typischen Herangehensweise bei Django-Apps liegen, nämlich mit dem Hintergedanken, es möglichst modular und wiederverwendbar zu halten.
+Die zwei größten Hürden waren die Abhängigkeit von der Django Model Klasse und dem Template System.
+
+Ersteres war recht schnell gelöst, die Relationen, die man normalerweise über Queries abfragt, wurden in die Models (die nun direkt von object erben) gepackt.
+
+Für letzteres habe ich auf [jinja2](http://jinja.pocoo.org/) zurückgegriffen, eine tolle Template Engine, die in ihrem Wesen derjenigen von Django sehr ähnelt, in vielen Bereichen jedoch mächtiger ist. Somit konnte ich die Django Templates fast 1:1 übernehmen. Lediglich ein paar Django-spezifische Filter mussten für jinja reimplementiert werden, was aber kein Problem darstellte.
+
+Deployment
+----------
+Der so entstandene Standalone-Generator für die Seite lebt nun in einem (noch) privaten Repository auf github. Der Output lebt - zusammen mit anderen statischen Ressourcen - im gh-pages branch dieses Repositories.
+
+Zusätzlich liegt in diesem branch noch ein CNAME file, welches github mitteilt, dass tonstube.de auf diese Projectpage zeigen soll. Der A record der TLD verweist auf die IP von github.
+
+Fazit
+-----
+Für den Fall der Tonstube eignet sich das github-Pages Modell ganz hervorragend. Auch für dieses Blog sehe ich keinen Grund, auf eine dynamische Variante zurückzufallen, vor allem dank der Integration von [jekyll](https://github.com/mojombo/jekyll). Darüber werde ich aber in einem gesonderten Beitrag berichten, wenn ich mit den Bastelarbeiten fertig bin.
