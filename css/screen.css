@@ -71,6 +71,10 @@ table {
 /*
 /*****************************************************************************/
 
+body {
+  background-image: url(../img/handmadepaper.png);
+}
+
 ul.posts {
   list-style-type: none;
   margin-bottom: 2em;
