@@ -1,0 +1,19 @@
+---
+layout: post
+title: Cool Aid
+published: false
+---
+
+Immer wieder habe ich es probiert. Ich habe genippt am Becher, gefüllt mit Cool Aid. Aber irgendwie wollte der Funken nicht überspringen. Zu oft wurde ich zurückgepfiffen. Zu oft wurde ich von gems dependencies ins Gesicht gelacht und von seltsamen Rails-gebahren abgeschreckt. White-space OK... aber optionale Klammern? Ruby-kids from today.. get off my lawn!
+
+Und doch scheint es passiert zu sein. Endlich. Der Funken ist übergesprungen. Dank gebührt vor allem zwei Dingen.
+
+Als erstes sei [RVM](https://rvm.beginrescueend.com/) zu nennen, das mich von allen seltsamen Gem-Dependencies-Orgien mit einem Schlag befreite durch ein durchdachtes und brauchbares System, das Spaß macht.
+
+Und - viel wichtiger - die zweite Sache: Das wohl beste Coding Tutorial, das ich jemals durchgearbeitet habe. Test-driven, durchdacht und von vorne bis hinten gut geschrieben und konsistent: [Ruby on Rails Tutorial: Learn Rails by Example](http://ruby.railstutorial.org/) von Michael Hartl.
+
+Zwischen [railscasts](http://railscasts.com) und [gems](http://rubygems.org/) schwebe ich gerade in der Euphorie einer florierenden Community, die Innovation, Simplizität und Liebe zu schönem Design über Konservativität, Kompatibilität und Altbewährtes stellt.
+
+Es mag kindisch und kühn erscheinen, aber es ist die Art des Codens, die mich zu Python, Git und Django gezogen hat und die gerade mit Ruby, Rails und Github ihren bisherigen Höhepunkt erlebt.
+
+Coder vereint für den Spaß am Code und die Freude an schönem und durchdachtem Design, gemeinsam und ohne Scheuklappen - und vor allem anderem mit dem Mut, es einfach zu machen.
