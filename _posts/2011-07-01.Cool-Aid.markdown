@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Cool Aid
-published: false
+published: true
 ---
 
 Immer wieder habe ich es probiert. Ich habe genippt am Becher, gefüllt mit Cool Aid. Aber irgendwie wollte der Funken nicht überspringen. Zu oft wurde ich zurückgepfiffen. Zu oft wurde ich von gems dependencies ins Gesicht gelacht und von seltsamen Rails-gebahren abgeschreckt. White-space OK... aber optionale Klammern? Ruby-kids from today.. get off my lawn!
