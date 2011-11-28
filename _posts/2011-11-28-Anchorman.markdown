@@ -52,7 +52,7 @@ Kürzlich habe ich angefangen, das Fundament für Unit Tests zu legen. Hierfür 
 
 Der User-Agent
 --------------
-Ich erwähnte bei der Suche nach der passenden Suchmaschine, dass ich keinen User-Agent faken wollte. Nun könnte man im Code über folgende Zeichenfolge stolpern und denken "aha! hater er DOCH!":
+Ich erwähnte bei der Suche nach der passenden Suchmaschine, dass ich keinen User-Agent faken wollte. Nun könnte man im Code über folgende Zeichenfolge stolpern und denken "aha! hat er DOCH!":
 
 {% highlight python %}
 user_agent = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.2 (KHTML, like Gecko) Chrome/15.0.874.106 Safari/535.2"
